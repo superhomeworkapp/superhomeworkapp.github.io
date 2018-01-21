@@ -260,6 +260,13 @@ header {
     background-image: linear-gradient( 135deg, #B7C8C1 0%, #C8C1B7 100%);
 }
 
+.bg-gradient-pro {
+    background-image: -moz-linear-gradient( 135deg, #F1D18A 0%, #FF7F50 100%);
+    background-image: -webkit-linear-gradient( 135deg, #F1D18A 0%, #FF7F50 100%);
+    background-image: -ms-linear-gradient( 135deg, #F1D18A 0%, #FF7F50 100%);
+    background-image: linear-gradient( 135deg, #F1D18A 0%, #FF7F50 100%);
+}
+
 .tagline {
     font-size: 23px;
     font-weight: 300;
