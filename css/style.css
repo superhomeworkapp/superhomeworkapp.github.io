@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
 
 Style   : MobApp CSS
@@ -10,7 +9,6 @@ URI     : https://surjithctly.in/
 Copyright © All rights Reserved 
 
 */
-
 
 /*------------------------
 [TABLE OF CONTENTS]
@@ -27,12 +25,13 @@ Copyright © All rights Reserved
 
 ------------------------*/
 
-
 /* GLOBAL
 ----------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700');
+
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: /*'Rubik'*/ 'Merriweather', sans-serif;
     position: relative;
 }
 
@@ -43,6 +42,10 @@ a {
 a:hover,
 a:focus {
     color: #888;
+}
+
+h1, h2 {
+    font-family: "Philosopher";
 }
 
 h1 {
@@ -158,9 +161,12 @@ p.lead {
 }
 
 .gradient-bg {
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #435966, #ABC2B5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #435966, #ABC2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #BBD2C5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #435966, #ABC2B5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #435966, #ABC2B5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .section {
@@ -188,7 +194,6 @@ p.lead {
 figure figcaption {
     text-align: center;
 }
-
 
 /* NAVBAR
 ----------------------*/
@@ -243,7 +248,6 @@ figure figcaption {
     }
 }
 
-
 /* HERO
 ----------------------*/
 
@@ -295,7 +299,6 @@ header {
         padding-bottom: 100%;
     }
 }
-
 
 /* FEATURES
 ----------------------*/
@@ -412,7 +415,6 @@ header {
     }
 }
 
-
 /*  TABS
 ----------------------*/
 
@@ -458,7 +460,6 @@ header {
     border-color: #ffffff #faf6fb #FFF;
     color: #ffffff;
 }
-
 
 /*  TESTIMONIALS
 ----------------------*/
@@ -522,7 +523,6 @@ header {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
-
 /*  IMAGE GALLERY
 ----------------------*/
 
@@ -535,7 +535,6 @@ header {
 .img-gallery .owl-item.center {
     transform: scale(1);
 }
-
 
 /*  PRICING
 ----------------------*/
@@ -593,7 +592,6 @@ header {
     padding: 1.75rem;
 }
 
-
 /*  CALL TO ACTION
 ----------------------*/
 
@@ -627,7 +625,6 @@ header {
     margin-right: 0.4rem;
     vertical-align: text-bottom;
 }
-
 
 /*  FOOTER
 ----------------------*/
