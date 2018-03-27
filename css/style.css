@@ -284,6 +284,8 @@ header {
     height: 0;
     padding-bottom: 33%;
     overflow: hidden;
+    width: 100%;
+    max-width: 550px;
 }
 
 @media (max-width:1200px) {
