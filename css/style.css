@@ -111,7 +111,11 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #222222;
+}
+
+.a:hover {
+    color: #222222;
 }
 
 .btn-primary {
