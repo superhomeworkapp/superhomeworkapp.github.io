@@ -89,12 +89,20 @@ p {
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #959094;
     margin-bottom: 2rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+p.lead-card {
+    color: #959094 !important;
+    margin-bottom: 2rem;
+    
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #959094 !important;
 }
 
 .light-font {

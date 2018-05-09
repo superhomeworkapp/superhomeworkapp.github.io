@@ -41,72 +41,55 @@
     <meta property="og:description" content="All your homework in one place.">
     <meta property="og:url" content="https://www.superhomeworkapp.com/">
     <meta property="og:image" content="https://s17.postimg.org/wqo1ehr27/superhomeworkapp.com.png">
+    
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!-- Load header and footer -->
+    <script> 
+        $(() => {
+            $("#boilerplate-header").load("boilerplate/header.html")
+            $("#boilerplate-footer").load("boilerplate/footer.html")
+        })
+    </script> 
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
     <!-- Nav Menu -->
 
-    <div class="nav-menu fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="#" style="font-family: 'Philosopher'; font-weight: bold; color: white; font-size: 20pt; vertical-align: middle;">
-                            <!--<img src="images/logo.png" class="img-fluid" alt="logo"/>-->
-                            SuperHomework
-                        </a>
-                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                        <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-link"><a href="#getbeta" style="color: white;" class="btn btn-outline-light"><b>Get the Beta</b></a></li>
-                            </ul>
-                            <ul class="navbar-nav ml-auto" style="margin-left: 0px !important;">
-                                <li class="nav-link"><a href="#about" style="color: #f8f8f8;">For Students</a></li>
-                                <li class="nav-link"><a href="#teachers" style="color: #f8f8f8;">For Teachers</a></li>
-                                <li class="nav-link"><a href="#administrators" style="color: #f8f8f8;">For Schools</a></li>
-                            </ul>
-                        </div>
-                        
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <div id="boilerplate-header"></div>
 
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
             <h1>
-                <b>
-                    <u>All your homework</u>
-                </b> in one place.</h1>
-            <p class="tagline">SuperHomework is the
-                <b>
-                    <u>easy way</u>
-                </b> to catch up on your assignments
-                <u>without</u> the hassle of web bookmarks or agenda books.
+                All your homework in one place.
+            </h1>
+            <p class="tagline">
+                SuperHomework is the easy, automatic way to catch up on your assignments without the hassle of an agenda book.
             </p>
             <a href="#getbeta" class="btn btn-outline-light" style="margin-top: 16px;">Get the Beta</a>
         </div>
+
         <br/>
+
         <div class="img-holder mt-3">
             <img src="images/iPhoneX_Mockup.png" alt="phone" class="img-fluid iphone-big"/>
         </div>
     </header>
 
     <div class="client-logos my-5">
+
         <div class="container text-center">
             <p>SuperHomework is
                 <u>already used</u> in these school systems.</p>
             <img src="images/TPS.png" width=100 alt="client logos" class="img-fluid">
         </div>
+
     </div>
 
-    <hr/>
-
     <div class="section light-bg" id="getbeta" style="background-color: #f8f8f8;">
+        
         <div class="section-title">
             <img src="https://luminfire.com/wp-content/uploads/2016/01/testflight-icon.png" height="96px"/>
             <br/>
@@ -116,186 +99,67 @@
             <p class="mb-4" style="margin-left: 32px; margin-right: 32px;">SuperHomework is currently in beta for students at Tyngsboro Public Schools.<br/>If you’re interested in shaping the future of SuperHomework, sign up with TestFlight today.</p>
             <a href="https://superhw-auto-testflight-signup.herokuapp.com/" class="btn btn-primary">Sign up</a>
         </div>
+
     </div>
 
-    <hr/>
+    <hr style="border-top: 0px;">
 
     <div class="section light-bg" id="about" style="background-color: #f8f8f8;">
-
-
         <div class="container">
 
             <div class="section-title">
-                <small>DESIGN</small>
-                <h3>It's the solution you wish you've always had.</h3>
+                <h4>How it works</h4>
+                <h2>It's the solution you wish you've always had.</h2>
             </div>
 
             <div class="container">
                 <div class="img-gallery owl-carousel">
-                    <img src="images/screen1.png">
-                    <img src="images/screen2.png">
-                    <img src="images/screen3.png">
-                    <img src="images/screen4.png">
-                    <img src="images/screen5.png">
-                </div>
-
-                <br/>
-
-                <div class="section-title">
-                    <h4>SuperHomework
-                        <u>does it for you</u>.</h4>
-                    <div>
-                        <p class="mb-4">
-                            <b>Gone are the days of announcements and agenda books, and the web is here to stay.</b> Your teacher
-                            has probably already adopted this change, and posts their homework on a website or other electronic
-                            medium. But there's one current problem with this system that makes it undesirable compared to
-                            a traditional agenda book: there is no organization, and you as a student end up wasting time
-                            navigating across multiple sites and sources while trying to do your homework.
-                        </p>
-                    </div>
-                    <div>
-                        <p class="mb-4">SuperHomework can
-                            <b>simplify all of this.</b> It automatically pulls the nightly homework from your teachers' websites
-                            and puts them into a clear and accessible format. Simply
-                            <b>open the app</b> to view — that's it! Or with SuperHomework Pro, get notifications with a summary
-                            of your work every afternoon without lifting a finger.</p>
-                    </div>
+                    <img src="images/screen1.png"/>
+                    <img src="images/screen2.png"/>
+                    <img src="images/screen3.png"/>
+                    <img src="images/screen4.png"/>
+                    <img src="images/screen5.png"/>
                 </div>
             </div>
-
-            <div style="display: flex; justify-content: space-around; text-align: center">
-                <div class="col-md-10">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <h3>Quick and Convenient</h3>
-                                    <p class="text-muted">All your assignments, all right there. SuperHomework quickly and efficiently downloads
-                                        the latest assignments from your teachers’ sites. If your school isn’t registered
-                                        with SuperHomework yet, you can still add your own assignments and customize their
-                                        description, due date, icon, and more.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <h3>Notifications</h3>
-                                    <p class="text-muted">Wouldn’t it be awesome if your agenda book could remind you about what you put inside
-                                        it? With SuperHomework Pro, it can do that too. Set your own reminders for all your
-                                        assignments, or get a daily summary at the time of your choosing.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="display: flex; justify-content: space-around; text-align: center">
-                <div class="col-md-6">
-                    <div class="feature-item">
-                        <h3>Works with Google Classroom&trade;</h3>
-                        <p class="text-muted">If your teacher uses Google Classroom&trade; instead of a traditional website, SuperHomework
-                            has you covered. Simply sign in with your Google account and the latest assignments
-                            will appear right alongside everything else.
-                        </p>
-                    </div>
-                </div>
-            </div>    
         </div>
 
-    </div>
-
-    <div class="section bg-gradient-pro">
-        <div class="container">
-            <div class="align-items-center">
-
-                <p style="text-align:center">
-                    <img src="https://s9.postimg.org/4ngvk2gnz/Screen_Shot_2018-01-21_at_4.32.09_PM.png" height=84px/>
-                </p>
-                <br/>
-                <br/>
-                <div class="section-title">
-                    <h4 style="font-weight: 400; color: #222;">INTRODUCING</h4>
-                    <p class="tagline" style="font-size: 45px; font-weight: 1000; color: #504D49; margin-bottom: 1rem;">
-                        <h2>SuperHomework Pro</h2>
-                    </p>
-                    <p class="tagline">
-                        <h3>Focus on your work with advanced features.</h3>
-                    </p>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 justify-content-center">
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Quick and Convenient</h2>
+                    <p class="lead" style="color: #959094; margin: auto;">All your assignments, all right there.</p>
                 </div>
-                <br/>
-                <br/>
-                <div style="display: flex; justify-content: space-around; text-align: center">
-                    <div class="col-md-10">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>NOTIFICATIONS</h3>
-                                    <br/>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3>OFFLINE ACCESS</h3>
-                                    <br/>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>NO ADS</h3>
-                                    <br/>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3>UPCOMING FEATURES</h3>
-                                    <br/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <img src="images/assignment-cards.png" class="mx-auto" style="margin-bottom: 24px; max-width: 100%;">
+            </div>
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Notifications</h2>
+                    <p class="lead" style="color: #959094; margin: auto;">Never forget your homework again.</p>
+                    <small style="color: #bcbcbc;">Requires SuperHomework Pro</small>
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <p class="tagline">
-                    <h4 style="text-align:center">Get it now for only $1.99, still the
-                        <u>fraction of the cost of an agenda book.</u>
-                    </h4>
-                </p>
+                <img src="images/notifications-cards.png" class="mx-auto" style="margin-bottom: 24px; max-width: 100%;">
+            </div>
+        </div>
+    
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 justify-content-center">
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Works with Everything</h2>
+                    <p class="lead" style="color: #959094; margin: auto;">Fill your agenda with multiple sources.</p>
+                </div>
+                <img src="images/providers-cards.png" class="mx-auto" style="margin-bottom: 24px; max-width: 100%;">
+            </div>
+            <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-md">
+                <div class="my-3 p-3">
+                    <h2 class="display-5">Great for Everyone</h2>
+                    <p class="lead" style="color: #959094; margin: auto;">SuperHomework helps students, parents, and teachers alike.</p>
+                </div>
+                <img src="images/cycle-cards.png" class="mx-auto" style="margin-bottom: 24px; max-width: 100%;">
             </div>
         </div>
     </div>
 
-    <!--
-    <div class="section bg-gradient" id="download">
-        <div class="container">
-            <div>
-
-                <p style="text-align:center">
-                    <img src="https://s2.postimg.org/69rd4guy1/Rounded_Icon_2.png" height=72px />
-                </p>
-                <br/>
-                <br/>
-                <h4 style="font-weight: 400; color: #EEE; text-align:center;">WHAT ARE YOU WAITING FOR?</h4>
-                <div style="text-align: center;">
-                    <h2>Get it today and
-                        <u>change the way you homework</u>.</h2>
-                    <p class="tagline">Available on the App Store for devices running iOS 10.3 and up.</p>
-                </div>
-                <!--
-                <div class="my-4">
-                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="icon" height=68px></a>
-                </div>
-                --
-                <br/>
-                <div style="text-align: center;">
-                    <div style="pointer-events:none;">
-                        <a href="#" class="btn btn-outline-light">Coming Soon</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-    <!-- // end .section -->
-
-    <hr/>
+    <hr style="border-top: 0px">
 
     <div class="section medium-bg" id="teachers">
 
@@ -350,38 +214,9 @@
         </div>
     </div>
 
-    <!-- section -->
+    <!-- footer -->
 
-    <footer class="my-5 text-center">
-        <p class="mb-2" style="font-family: 'Philosopher'; font-weight: bold; color: black; font-size: 20pt; margin: 20px;">
-            SuperHomework
-        </p>
-
-        <p class="mb-2" style="margin: 20px">
-            <small>
-                <a href="/">
-                    <u>Home</u>
-                </a> &bull;
-                <a href="/fineprint">
-                    <u>Fine Print</u>
-                </a> &bull;
-                <a href="/register">
-                    <u>Register Your School</u>
-                </a> &bull;
-                <a href="/contact">
-                    <u>Contact</u>
-                </a>
-            </small>
-        </p>
-        <!-- Copyright removal is not prohibited! -->
-        <p class="mb-2">
-            <small>MobApp template by
-                <a href="https://colorlib.com">
-                    <u>Colorlib</u>
-                </a>
-            </small>
-        </p>
-    </footer>
+    <div id="boilerplate-footer"></div>
 
     <!-- jQuery and Bootstrap -->
     <script src="js/jquery-3.2.1.min.js"></script>
