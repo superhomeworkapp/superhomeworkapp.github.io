@@ -70,7 +70,7 @@ li.nav-item a.nav-link.sh-nav-download:hover {
 }
 
 .sh-section-divider {
-    border-top: 2px solid rgba(0, 0, 0, 10%);
+    border-top: 1px solid #DFDFDF;
     max-width: 480px;
     margin-bottom: 24px;
 }
