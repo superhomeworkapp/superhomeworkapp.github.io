@@ -1,8 +1,5 @@
 https://superhomeworkapp.com/
-https://superhomeworkapp.com/add-school/
-https://superhomeworkapp.com/acknowledgments-ios/
-https://superhomeworkapp.com/contact/
-https://superhomeworkapp.com/download/
-https://superhomeworkapp.com/faq/
-https://superhomeworkapp.com/features/
-https://superhomeworkapp.com/fineprint/
+https://superhomeworkapp.com/contact
+https://superhomeworkapp.com/faq
+https://superhomeworkapp.com/fineprint
+https://superhomeworkapp.com/registerschool
