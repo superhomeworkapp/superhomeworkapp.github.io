@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+body > * {
+  margin: 0;
+  padding: 22px 0;
+}
+
+.logo {
+  height: 72px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.appstore-badge {
+  height: 78px;
+}
+
+.footer {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.footer .footer-items {
+  margin-bottom: 24px;
+}
+
+.footer .footer-items > * {
+  margin: 0 15px;
+}
+
+@media (min-width: 550px) {
+  html {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    padding: 0 18px;
+  }
+
+  body > * {
+    padding: 14px 0;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h1 br {
+    display: none;
+  }
+
+  .appstore-badge {
+    height: 64px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+
+  .footer .footer-items {
+    margin-bottom: 12px;
+  }
+
+  .footer .footer-items > * {
+    margin: 0 8px;
+  }
+}
